@@ -9,7 +9,7 @@ class Donation_text:
     )
 
     confirmation_email_subject = (
-        'Thank you for donating to the Triple Crown for Heart! '
+        'Thank you for donating to the NGO Fundraiser! '
     )
 
     # Start of the email sent confirming the paypal payment has gone through
@@ -21,8 +21,8 @@ class Donation_text:
     # Closing of the email sent confirming the paypal payment has gone through
     # used in paypal.py:process_paypal() - text only
     confirmation_email_closing_text = (
-        " supporting BC Children's Hospital and the Children's "
-        "Heart Network!"
+        "supporting NGO Fundraiser! "
+        "Care and Connect!"
         "\n\nFor all donations over $20, you will receive a tax receipt for "
         "the 2023 tax year."
         "\nYour PayPal receipt should arrive in a separate email.\n"
@@ -31,11 +31,10 @@ class Donation_text:
     # Closing of the email sent confirming the paypal payment has gone through
     # used in paypal.py:process_paypal() - with html link
     confirmation_email_closing_html = (
-        " supporting BC Children's Hospital and the Children's "
+        "supporting NGO Fundraiser! "
         "Heart Network!<br><br>"
-        "<a href=\"https://triplecrownforheart.ca/a-familys-story\">"
-        "Learn more about families </a> who have been impacted by "
-        "the amazing work at BC Children's Hospital.<br><br>"
+        "Learn more about families who have been impacted by "
+        "the amazing work at NGO Fundraiser!<br><br>"
         "For all donations over $20, you will receive a tax receipt for "
         "the 2023 tax year.<br>"
         "Your PayPal receipt should arrive in a separate email.\n"
@@ -52,7 +51,7 @@ class Donation_text:
     notification_email_closing = (
         "\n\nAwesome work! They would probably appreciate "
         "a quick thank you email.\n\n"
-        "-- Triple Crown for Heart\n"
+        "-- NGO Fundraiser!\n"
     )
 
 
@@ -60,7 +59,7 @@ class Fundraiser_text:
 
     # Subject of the email sent on signup
     signup_email_subject = (
-        "Welcome to fundraising for the Triple Crown for Heart!"
+        "Welcome to fundraising for the NGO Fundraiser!"
     )
 
     # Start of the email sent when someone signs up
