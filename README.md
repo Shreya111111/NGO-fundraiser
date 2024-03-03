@@ -1,6 +1,6 @@
 pip install poetry
 
-git clone https://github.com/dominikszopa/fundraising.git
+git clone https://github.com/Shreya111111/NGO-fundraiser
 
 go to fund-raising website
 
